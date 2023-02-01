@@ -1,0 +1,78 @@
+body,html{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+#divisao1{
+    background: black;
+    color: aliceblue;
+    margin-top: -20px;
+    margin-right: -10px;
+}
+#divisao2{
+    background: yellow;
+    color: black;
+    margin-top: -20px;
+    margin-right: -10px;
+}
+aside{
+  margin-top: 20px;
+    grid-area: a;
+   
+       
+    
+    }
+    #margin{
+        border: solid #c0C0C0 45px;
+ 
+    }
+    section{
+        grid-area: s;
+        text-align: center;
+       
+       
+           
+    }
+
+    article{
+        grid-area: c;
+    }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr 3fr;
+    grid-template-rows: 15vh 70vh 10vh;
+    grid-gap: 10px;
+    grid-template-areas:"s a c "
+                
+}
+
+#logo{
+    height:50px;
+    width:180px;
+}
+
+#img{
+    height:120px;
+    width:120px;
+    margin: 5px;
+    float: center;
+    margin-right: 90px;
+    
+}
+#caixa{
+    background: yellow;
+    color: black;
+    float: left;
+    display:inline;
+    margin-top: -105px;
+    margin-left: 100px;
+    width: 75%;
+  
+}
+#caixa2{
+    border:solid 1px #666;
+    margin: 5px;
+}
